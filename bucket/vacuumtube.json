@@ -1,16 +1,16 @@
 {
-    "version": "2.0.1",
+    "version": "2.1.1",
     "description": "VacuumTube is an unofficial wrapper of YouTube Leanback (the console and Smart TV version of YouTube) for the desktop, with a built-in adblocker and minor enhancements.",
     "homepage": "https://github.com/shy1132/VacuumTube",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shy1132/VacuumTube/releases/download/v2.0.1/VacuumTube-x64-Portable.zip",
-            "hash": "c58fdf3ddead8c374a308acef3d4799d4b95237951ad7fad07669f3d23a830ef"
+            "url": "https://github.com/shy1132/VacuumTube/releases/download/v2.1.1/VacuumTube-x64-Portable.zip",
+            "hash": "e5b6869b89310b7baa56b1d0766e198bc2429db4f1b954e0dc90b6719437d79d"
         },
         "arm64": {
-            "url": "https://github.com/shy1132/VacuumTube/releases/download/v2.0.1/VacuumTube-arm64-Portable.zip",
-            "hash": "3c4a8078a0add9a93d0b6bd4b8643e9c9ad80ec3c6d7e41fe30bbf9a2d9d612e"
+            "url": "https://github.com/shy1132/VacuumTube/releases/download/v2.1.1/VacuumTube-arm64-Portable.zip",
+            "hash": "bfa9ec4437ab89f662609a5cf356aa1065afca2b67888b4f36ba8719e39229a9"
         }
     },
     "pre_install": "New-Item \"$dir\\portable.txt\" -ItemType File -ErrorAction SilentlyContinue | Out-Null",
